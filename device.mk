@@ -550,8 +550,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=23
 
 # setup dalvik vm configs.
-$(call inherit-product, vendor/extras/configs/phone-xxhdpi-3072-dalvik-heap.mk)
-$(call inherit-product, vendor/extras/configs/phone-xxhdpi-3072-hwui-memory.mk)
+$(call inherit-product, vendor/aaosp/extras/phone-xxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product, vendor/aaosp/extras/phone-xxhdpi-3072-hwui-memory.mk)
 
 # drmservice prop
 PRODUCT_PROPERTY_OVERRIDES += \
